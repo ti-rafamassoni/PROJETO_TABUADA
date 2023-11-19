@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+body {
+    min-height: 100vh;
+    padding: 2rem;
+    background: linear-gradient(180deg, #DB4444 0%, #3F24DD 98%);
+    text-align: center;
+}
+
+.subtitle {
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+}
+
+form {
+    background-color: white;
+    max-width: 300px;
+    height: 18vh;
+    margin: 1rem auto;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center ;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.input1 {
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    align-items: center;
+    font-size: 12px;
+}
+
+.input1 input {
+    width: 65px;
+    height: 45px;
+    border-radius: 5px;
+    border: 0.8px solid rgb(85, 85, 85);
+}
+
+#tabuada, #multiplicador {
+    text-align: center;
+    margin-top: 5px;
+}
+
+#btn-calcular  {
+    width: 195px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+#multiplication-operations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 300px;
+    margin: 1rem auto;
+    padding: 2rem 1rem;
+    background-color: #ffff;
+    border-radius: 10px;
+    color: #333;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    padding: 0.5rem;
+    width: 150px;
+}
+
+.row:last-child {
+    border-bottom: 1px solid #ccc;
+}
+
+.result {
+    margin-left: 0.4rem;
+}
+
